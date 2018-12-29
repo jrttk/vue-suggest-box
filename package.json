@@ -1,12 +1,20 @@
 {
   "name": "vue-suggest-box",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name vue-suggest-box ./src/components/VueSuggestBox.vue",
     "lint": "vue-cli-service lint"
   },
+  "main": "./lib/vue-suggest-box.common.js",
+  "files": [
+    "lib/*",
+    "src/components/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
     "vue": "^2.5.17"
   },
