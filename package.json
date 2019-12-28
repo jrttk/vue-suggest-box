@@ -1,6 +1,6 @@
 {
-  "name": "suggest-box",
-  "version": "0.1.0",
+  "name": "vue-suggest-box",
+  "version": "1.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
