@@ -81,7 +81,7 @@ export default class VueSuggestBox extends Vue {
 }
 </script>
 
-<style scoped>
+<style>
 .suggest-box {
   width: 400px;
   height: 160px;
