@@ -1,7 +1,7 @@
 # vue-suggest-box
 [![npm version](https://badge.fury.io/js/vue-suggest-box.svg)](https://badge.fury.io/js/vue-suggest-box)
 
-[![NPM](https://nodei.co/npm-dl/vue-suggest-box.png)](https://nodei.co/npm/vue-suggest-box/)
+[![NPM](https://nodei.co/npm/vue-suggest-box.png)](https://nodei.co/npm/vue-suggest-box/)
 
 A simple suggest box component for Vue.js inspired by the card design from Ghost CMS and Unsplash!
 
@@ -30,9 +30,18 @@ export default {
 Done!
 ```javascript
 <template>
-	<Suggest position="topLeft" title="Card Title" content="Content goes here"/>
+	<Suggest position="btl" title="Card Title" content="Content goes here"/>
 </template>
 ```
+
+## Props
+
+|  Name | Type  | Default | Description
+| ------------ | ------------ | ------------ |
+| position  | String  |  "btl" (Bottom Left) |  The position of the suggest box. ("btl", "btr", "tl", "tr") |
+|  title |  String | "Hello World!"  |  The title of it. |
+|  contnet | String  |  "Lorem ipsum. . ." |  The content of it |
+
 
 ## License
 Copyright 2018 Jirattikarn Phasugmool

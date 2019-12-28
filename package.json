@@ -1,6 +1,6 @@
 {
   "name": "vue-suggest-box",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -25,5 +25,6 @@
     "@vue/cli-service": "^4.1.0",
     "typescript": "~3.5.3",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "keywords": ["vue", "vuejs", "suggest", "box", "suggest box", "popup", "dialog", "content", "suggestion"]
 }
